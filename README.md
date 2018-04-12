@@ -7,7 +7,9 @@ A framework for bitcoin trading bots
 
 Requirements:
 
-Python 2
-ccxt
-twilio
-requests
+ * Python 2
+ * ccxt
+ * twilio
+ * requests
+ * numpy
+ * tulipy
