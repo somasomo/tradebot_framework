@@ -66,7 +66,7 @@ class ExchgData:
 
 	# timeframe tf should be in tf_seconds
 	# lookback should be number of candles
-	# start and end should be in seconds
+	# start and end should be in milliseconds
 	def fetch_candles(self, tf, start = None, end = None):
 		rawdata = None
 		apitry = 0
